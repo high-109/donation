@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+  <defs>
+    <linearGradient id="goldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd9a8" />
+      <stop offset="50%" stop-color="#9e733b" />
+      <stop offset="100%" stop-color="#6e4f24" />
+    </linearGradient>
+    <filter id="wreathShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <!-- Dual Gold Filigree Circles -->
+  <circle cx="150" cy="150" r="102" stroke="url(#goldRing)" stroke-width="2.5" filter="url(#wreathShadow)" />
+  <circle cx="150" cy="150" r="95" stroke="url(#goldRing)" stroke-width="1.2" stroke-dasharray="3 2" />
+
+  <!-- Botanical foliage & eucalyptus leaves (Upper Right) -->
+  <g class="foliage-ur">
+    <path d="M190 70 C205 50, 225 55, 230 75 C220 85, 205 80, 190 70 Z" fill="#697a66" />
+    <path d="M220 85 C240 75, 255 90, 248 105 C235 110, 225 95, 220 85 Z" fill="#526450" />
+    <path d="M175 60 C185 45, 200 48, 205 62 C195 70, 185 68, 175 60 Z" fill="#7d8f7a" />
+  </g>
+
+  <!-- Blush and Coral Garden Roses (Upper Right) -->
+  <!-- Rose 1 (Large coral red) -->
+  <circle cx="210" cy="85" r="22" fill="#a8434f" filter="url(#wreathShadow)" />
+  <path d="M200 75 C210 68, 225 72, 225 85 C225 95, 210 100, 200 90 C195 85, 195 78, 200 75 Z" fill="#c45865" />
+  <path d="M205 80 C212 76, 218 80, 216 86 C214 90, 208 92, 204 88 Z" fill="#e27c89" />
+  <circle cx="210" cy="84" r="5" fill="#f0a8b2" />
+
+  <!-- Rose 2 (Blush dusty pink) -->
+  <circle cx="236" cy="108" r="18" fill="#c47883" />
+  <path d="M228 100 C236 95, 246 100, 245 110 C242 118, 232 120, 226 112 Z" fill="#df949e" />
+  <circle cx="236" cy="108" r="4.5" fill="#fce4e6" />
+
+  <!-- Botanical foliage & eucalyptus leaves (Bottom Left) -->
+  <g class="foliage-bl">
+    <path d="M110 230 C95 250, 75 245, 70 225 C80 215, 95 220, 110 230 Z" fill="#697a66" />
+    <path d="M80 215 C60 225, 45 210, 52 195 C65 190, 75 205, 80 215 Z" fill="#526450" />
+    <path d="M125 240 C115 255, 100 252, 95 238 C105 230, 115 232, 125 240 Z" fill="#7d8f7a" />
+  </g>
+
+  <!-- Blush and Coral Garden Roses (Bottom Left) -->
+  <!-- Rose 3 (Dusty peach rose) -->
+  <circle cx="90" cy="215" r="22" fill="#c45865" filter="url(#wreathShadow)" />
+  <path d="M80 205 C90 198, 105 202, 105 215 C105 225, 90 230, 80 220 C75 215, 75 208, 80 205 Z" fill="#df7b87" />
+  <path d="M85 210 C92 206, 98 210, 96 216 C94 220, 88 222, 84 218 Z" fill="#f0a4ae" />
+  <circle cx="90" cy="214" r="5" fill="#fde6e8" />
+
+  <!-- Rose 4 (Soft porcelain white rose) -->
+  <circle cx="64" cy="192" r="18" fill="#e8d5cc" />
+  <path d="M58 184 C66 179, 76 184, 75 194 C72 202, 62 204, 56 196 Z" fill="#f4e8e2" />
+  <circle cx="64" cy="192" r="4.5" fill="#ffffff" />
+
+  <!-- Rose 5 (Crimson accent bud) -->
+  <circle cx="118" cy="235" r="14" fill="#99323f" />
+  <circle cx="118" cy="235" r="7" fill="#b84654" />
+
+  <!-- Intertwined Serif Calligraphy Monogram A H in Gold -->
+  <g class="monogram-ah" filter="url(#wreathShadow)">
+    <!-- Letter A -->
+    <text x="132" y="166" font-family="'Cormorant Garamond', serif" font-size="70" font-weight="600" fill="url(#goldRing)" text-anchor="middle">A</text>
+    <!-- Letter H intertwining -->
+    <text x="175" y="166" font-family="'Cormorant Garamond', serif" font-size="70" font-weight="600" fill="url(#goldRing)" text-anchor="middle">H</text>
+  </g>
+</svg>

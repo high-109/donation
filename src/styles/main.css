@@ -1,0 +1,101 @@
+@import './variables.css';
+@import './typography.css';
+@import './components.css';
+
+/* Box sizing and clean reset */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  background-color: var(--bg-deep);
+  color-scheme: light;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-color: var(--bg-deep);
+  overflow-x: hidden;
+  position: relative;
+  transition: background-color var(--t-base) ease;
+}
+
+body.scroll-locked {
+  overflow: hidden !important;
+  touch-action: none;
+}
+
+/* Base app wrapper */
+.app-root {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+}
+
+.main-content {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+}
+
+/* Sections & seamless gradient overlays between sections */
+.section {
+  position: relative;
+  width: 100%;
+  padding-left: max(1.5rem, env(safe-area-inset-left));
+  padding-right: max(1.5rem, env(safe-area-inset-right));
+}
+
+.section + .section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(180deg, var(--line) 0%, transparent 100%);
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Container utilities */
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-narrow {
+  width: 100%;
+  max-width: var(--container-narrow);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Focus styles for keyboard accessibility */
+:focus-visible {
+  outline: 2px solid var(--accent-gold);
+  outline-offset: 3px;
+}
+
+/* Media Queries - Responsive Scaling */
+@media (max-width: 640px) {
+  .celebrations-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .event-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .countdown-timer-grid {
+    gap: 0.5rem;
+  }
+}

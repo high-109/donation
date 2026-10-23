@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <!-- Organic wax rim gradient -->
+    <radialGradient id="waxBase" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#b42b3b" />
+      <stop offset="40%" stop-color="#8c1d2b" />
+      <stop offset="85%" stop-color="#5a0e19" />
+      <stop offset="100%" stop-color="#3a080f" />
+    </radialGradient>
+    <radialGradient id="waxBevel" cx="45%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#ff7b89" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#b42b3b" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#2d050a" stop-opacity="0.8" />
+    </radialGradient>
+    <!-- Gold leaf shimmer -->
+    <linearGradient id="sealGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd9a8" />
+      <stop offset="50%" stop-color="#d4af7a" />
+      <stop offset="100%" stop-color="#9a7432" />
+    </linearGradient>
+    <filter id="waxDropShadow" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#0e0407" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Outer organic melted wax rim -->
+  <path d="M80 6 
+           C96 5, 114 12, 128 24 
+           C144 38, 155 58, 154 78 
+           C153 100, 142 120, 126 135 
+           C110 150, 88 156, 68 153 
+           C46 150, 26 138, 15 120 
+           C4 102, 5 80, 12 60 
+           C19 38, 38 18, 60 10 
+           C68 7, 74 6, 80 6 Z"
+        fill="url(#waxBase)" filter="url(#waxDropShadow)" />
+        
+  <!-- Wax surface highlight gloss -->
+  <path d="M80 8 
+           C94 7, 110 14, 123 25 
+           C138 38, 148 56, 147 75 
+           C146 95, 136 114, 121 128 
+           C106 142, 86 147, 68 145 
+           C48 142, 30 131, 20 115 
+           C10 98, 11 78, 18 60 
+           C24 40, 42 21, 62 13 
+           C69 10, 75 9, 80 8 Z"
+        fill="url(#waxBevel)" />
+
+  <!-- Inner stamp circle plate -->
+  <circle cx="80" cy="80" r="48" fill="#7a1420" stroke="url(#sealGold)" stroke-width="1.8" />
+  
+  <!-- Beaded inner rim -->
+  <circle cx="80" cy="80" r="44" stroke="url(#sealGold)" stroke-width="1" stroke-dasharray="2 4" />
+
+  <!-- Botanical laurels inside seal -->
+  <path d="M48 80 C48 64, 58 52, 70 48" stroke="url(#sealGold)" stroke-width="1.2" stroke-linecap="round" />
+  <path d="M112 80 C112 64, 102 52, 90 48" stroke="url(#sealGold)" stroke-width="1.2" stroke-linecap="round" />
+  <path d="M48 80 C48 96, 58 108, 70 112" stroke="url(#sealGold)" stroke-width="1.2" stroke-linecap="round" />
+  <path d="M112 80 C112 96, 102 108, 90 112" stroke="url(#sealGold)" stroke-width="1.2" stroke-linecap="round" />
+
+  <!-- Intertwined Monogram H & A in gold -->
+  <g class="seal-monogram" transform="translate(80, 80) scale(0.95) translate(-80, -80)">
+    <!-- Letter H -->
+    <text x="63" y="88" font-family="'Cormorant Garamond', serif" font-size="34" font-weight="600" fill="url(#sealGold)" text-anchor="middle" letter-spacing="1">H</text>
+    <!-- Ampersand -->
+    <text x="80" y="84" font-family="'Alex Brush', cursive" font-size="22" font-style="italic" fill="#ffd9a8" text-anchor="middle">&amp;</text>
+    <!-- Letter A -->
+    <text x="97" y="88" font-family="'Cormorant Garamond', serif" font-size="34" font-weight="600" fill="url(#sealGold)" text-anchor="middle" letter-spacing="1">A</text>
+  </g>
+</svg>

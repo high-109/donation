@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#faf6f0" />
+  <rect x="30" y="30" width="1140" height="570" fill="none" stroke="#9e733b" stroke-width="2" />
+  <rect x="45" y="45" width="1110" height="540" fill="none" stroke="rgba(158,115,59,0.3)" stroke-width="1" stroke-dasharray="4 4" />
+  
+  <text x="600" y="160" font-family="'Amiri', 'Traditional Arabic', serif" font-size="34" fill="#9e733b" text-anchor="middle">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</text>
+  <text x="600" y="240" font-family="'Cinzel', serif" font-size="22" letter-spacing="6" fill="#6e5e64" text-anchor="middle">TOGETHER WITH OUR FAMILIES</text>
+  <text x="600" y="340" font-family="'Cormorant Garamond', serif" font-size="74" font-weight="600" fill="#241820" text-anchor="middle">Hammad Sheikh &amp; Ayesha Akram</text>
+  <text x="600" y="410" font-family="'Alex Brush', cursive" font-size="44" fill="#9c4654" text-anchor="middle">invite you to celebrate their engagement</text>
+  
+  <line x1="450" y1="460" x2="750" y2="460" stroke="#9e733b" stroke-width="1.5" />
+  <circle cx="600" cy="460" r="4" fill="#9e733b" />
+  
+  <text x="600" y="520" font-family="'Cinzel', serif" font-size="22" letter-spacing="4" fill="#9e733b" text-anchor="middle">SATURDAY, 14 NOVEMBER 2026 • GHANCHI COMMUNITY BANQUET</text>
+</svg>

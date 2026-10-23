@@ -1,0 +1,16 @@
+{
+  "name": "Ahmad & Mawra - Digital Engagement Invitation",
+  "short_name": "Ahmad & Mawra",
+  "description": "Luxury digital engagement invitation celebrating Ahmad & Mawra.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2b1a2e",
+  "theme_color": "#2b1a2e",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "64x64 128x128 512x512",
+      "type": "image/svg+xml"
+    }
+  ]
+}

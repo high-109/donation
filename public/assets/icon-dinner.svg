@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Dinner Celebration & Toast Icon -->
+  <circle cx="50" cy="50" r="44" fill="rgba(212,175,122,0.08)" stroke="#d4af7a" stroke-width="1.2" stroke-dasharray="3 3" />
+  
+  <!-- Left Champagne Flute -->
+  <g transform="rotate(-12 40 50)">
+    <path d="M36 30 C36 44, 44 48, 44 54 L44 68 L36 68 L52 68 L44 68 L44 54 C44 48, 52 44, 52 30 Z" stroke="#d4af7a" stroke-width="2" fill="rgba(255,217,168,0.15)" />
+    <!-- Liquid -->
+    <path d="M38 38 C40 44, 48 44, 50 38 L48 46 C46 48, 42 48, 40 46 Z" fill="#ffd9a8" fill-opacity="0.6" />
+  </g>
+
+  <!-- Right Champagne Flute -->
+  <g transform="rotate(12 60 50)">
+    <path d="M48 30 C48 44, 56 48, 56 54 L56 68 L48 68 L64 68 L56 68 L56 54 C56 48, 64 44, 64 30 Z" stroke="#e8b4b8" stroke-width="2" fill="rgba(232,180,184,0.15)" />
+    <!-- Liquid -->
+    <path d="M50 38 C52 44, 60 44, 62 38 L60 46 C58 48, 54 48, 52 46 Z" fill="#e8b4b8" fill-opacity="0.6" />
+  </g>
+
+  <!-- Clink sparkle stars -->
+  <polygon points="50,22 52,26 56,26 53,29 54,33 50,30 46,33 47,29 44,26 48,26" fill="#ffd9a8" />
+  <circle cx="44" cy="20" r="1.5" fill="#ffd9a8" />
+  <circle cx="56" cy="20" r="1.5" fill="#ffd9a8" />
+</svg>

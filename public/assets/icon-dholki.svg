@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Dholki / Sangeet Musical Night Icon -->
+  <circle cx="50" cy="50" r="44" fill="rgba(212,175,122,0.08)" stroke="#d4af7a" stroke-width="1.2" stroke-dasharray="3 3" />
+  
+  <!-- Dholak Barrel -->
+  <g transform="rotate(-15 50 50)">
+    <!-- Barrel body -->
+    <path d="M25 40 C35 34, 65 34, 75 40 L75 60 C65 66, 35 66, 25 60 Z" fill="#3a2540" stroke="#d4af7a" stroke-width="2" />
+    
+    <!-- Left drum head rim -->
+    <ellipse cx="25" cy="50" rx="6" ry="10" fill="#2b1a2e" stroke="#d4af7a" stroke-width="1.8" />
+    <!-- Right drum head rim -->
+    <ellipse cx="75" cy="50" rx="6" ry="10" fill="#2b1a2e" stroke="#d4af7a" stroke-width="1.8" />
+    
+    <!-- Lacing ropes -->
+    <line x1="28" y1="42" x2="72" y2="58" stroke="#d4af7a" stroke-width="1.2" stroke-dasharray="2 1" />
+    <line x1="28" y1="58" x2="72" y2="42" stroke="#d4af7a" stroke-width="1.2" stroke-dasharray="2 1" />
+    <line x1="28" y1="50" x2="72" y2="50" stroke="rgba(212,175,122,0.6)" stroke-width="1" />
+    
+    <!-- Tuning rings -->
+    <circle cx="45" cy="46" r="2" fill="#ffd9a8" />
+    <circle cx="55" cy="54" r="2" fill="#ffd9a8" />
+  </g>
+  
+  <!-- Musical notes & jasmine petals around -->
+  <path d="M72 26 C74 22, 78 22, 80 25 L80 34" stroke="#ffd9a8" stroke-width="1.5" stroke-linecap="round" />
+  <circle cx="72" cy="34" r="3" fill="#ffd9a8" />
+  
+  <path d="M22 68 C24 64, 28 64, 30 67 L30 76" stroke="#ffd9a8" stroke-width="1.5" stroke-linecap="round" />
+  <circle cx="22" cy="76" r="3" fill="#ffd9a8" />
+</svg>

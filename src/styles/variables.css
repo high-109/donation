@@ -1,0 +1,183 @@
+:root,
+[data-theme="light"],
+[data-theme="light-ivory"] {
+  /* Default Luxury Light Theme: Warm Pearl Ivory, Antique Gold & Deep Bronze Ink */
+  --bg-deep: #faf6f0;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f5ece0;
+  --ink: #231b18;
+  --ink-muted: #6b5c53;
+  --accent: #9c3f4e;
+  --accent-gold: #a67c3d;
+  --accent-glow: #e2af63;
+  --line: rgba(166, 124, 61, 0.25);
+  --line-strong: rgba(166, 124, 61, 0.52);
+  --seal-color: #8c1e2b;
+  --seal-glow: rgba(140, 30, 43, 0.22);
+  --parchment-bg: #fffbf5;
+  --parchment-border: #ebdcc8;
+  --parchment-ink: #231b18;
+  --parchment-ink-muted: #635044;
+  --shadow-luxe: 0 16px 40px rgba(78, 48, 56, 0.08);
+  --shadow-card: 0 8px 24px rgba(78, 48, 56, 0.06);
+  --shadow-gold: 0 0 25px rgba(166, 124, 61, 0.18);
+
+  /* Video Hero Card tokens */
+  --card-bg: #fdfaf5;
+  --card-gradient-top: rgba(255, 255, 255, 0.88);
+  --card-gradient-bot: rgba(248, 241, 230, 0.72);
+  --card-dot: #ebdcc8;
+  --card-border: rgba(166, 124, 61, 0.38);
+  --card-inner-border: rgba(166, 124, 61, 0.22);
+  --card-text-primary: #231b18;
+  --card-text-secondary: #4a382e;
+  --card-text-muted: #786253;
+  --card-accent-ceremony: #8c1e2b;
+  --card-gold: #8c663b;
+  --card-connector: #9c3f4e;
+}
+
+/* Strictly Luxury Light Theme - No dark mode, no purple */
+.dark,
+[data-theme="dark"],
+[data-theme="dark-aubergine"] {
+  --bg-deep: #faf6f0;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #f5ece0;
+  --ink: #231b18;
+  --ink-muted: #6b5c53;
+  --accent: #9c3f4e;
+  --accent-gold: #a67c3d;
+  --accent-glow: #e2af63;
+  --line: rgba(166, 124, 61, 0.25);
+  --line-strong: rgba(166, 124, 61, 0.52);
+  --seal-color: #8c1e2b;
+  --seal-glow: rgba(140, 30, 43, 0.22);
+  --parchment-bg: #fffbf5;
+  --parchment-border: #ebdcc8;
+  --parchment-ink: #231b18;
+  --parchment-ink-muted: #635044;
+  --shadow-luxe: 0 16px 40px rgba(78, 48, 56, 0.08);
+  --shadow-card: 0 8px 24px rgba(78, 48, 56, 0.06);
+  --shadow-gold: 0 0 25px rgba(166, 124, 61, 0.18);
+  --card-bg: #fdfaf5;
+  --card-gradient-top: rgba(255, 255, 255, 0.88);
+  --card-gradient-bot: rgba(248, 241, 230, 0.72);
+  --card-dot: #ebdcc8;
+  --card-border: rgba(166, 124, 61, 0.38);
+  --card-inner-border: rgba(166, 124, 61, 0.22);
+  --card-text-primary: #231b18;
+  --card-text-secondary: #4a382e;
+  --card-text-muted: #786253;
+  --card-accent-ceremony: #8c1e2b;
+  --card-gold: #8c663b;
+  --card-connector: #9c3f4e;
+}
+
+[data-theme="rose-gold"] {
+  /* Soft Blush Porcelain & Antique Rose */
+  --bg-deep: #fdf7f6;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #fbeeed;
+  --ink: #2b1a1f;
+  --ink-muted: #735961;
+  --accent: #b04e60;
+  --accent-gold: #a67c48;
+  --accent-glow: #e2af68;
+  --line: rgba(166, 124, 72, 0.24);
+  --line-strong: rgba(166, 124, 72, 0.5);
+  --seal-color: #92223b;
+  --seal-glow: rgba(146, 34, 59, 0.25);
+  --parchment-bg: #fff9f9;
+  --parchment-border: #edd5d8;
+  --parchment-ink: #2b1a1f;
+  --parchment-ink-muted: #70545a;
+  --shadow-luxe: 0 16px 40px rgba(92, 40, 52, 0.09);
+  --shadow-card: 0 8px 24px rgba(92, 40, 52, 0.06);
+  --shadow-gold: 0 0 25px rgba(166, 124, 72, 0.18);
+  --card-bg: #fff9f8;
+  --card-gradient-top: rgba(255, 255, 255, 0.85);
+  --card-gradient-bot: rgba(250, 237, 236, 0.65);
+  --card-dot: #edd5d8;
+  --card-border: rgba(166, 124, 72, 0.35);
+  --card-inner-border: rgba(166, 124, 72, 0.22);
+  --card-text-primary: #2b1a1f;
+  --card-text-secondary: #52343d;
+  --card-text-muted: #785a63;
+  --card-accent-ceremony: #b04e60;
+  --card-gold: #966c3a;
+  --card-connector: #b04e60;
+}
+
+[data-theme="sage-gold"] {
+  /* Serene Sage Cream & Heritage Gold */
+  --bg-deep: #f5f8f5;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #eaf0ea;
+  --ink: #16241b;
+  --ink-muted: #57695d;
+  --accent: #2e6948;
+  --accent-gold: #9e7638;
+  --accent-glow: #deb05a;
+  --line: rgba(158, 118, 56, 0.24);
+  --line-strong: rgba(158, 118, 56, 0.5);
+  --seal-color: #1e593a;
+  --seal-glow: rgba(30, 89, 58, 0.25);
+  --parchment-bg: #f9fbf9;
+  --parchment-border: #d7e4da;
+  --parchment-ink: #16241b;
+  --parchment-ink-muted: #4e6354;
+  --shadow-luxe: 0 16px 40px rgba(32, 60, 42, 0.09);
+  --shadow-card: 0 8px 24px rgba(32, 60, 42, 0.06);
+  --shadow-gold: 0 0 25px rgba(158, 118, 56, 0.18);
+  --card-bg: #f7faf7;
+  --card-gradient-top: rgba(255, 255, 255, 0.85);
+  --card-gradient-bot: rgba(234, 241, 235, 0.65);
+  --card-dot: #d7e4da;
+  --card-border: rgba(158, 118, 56, 0.35);
+  --card-inner-border: rgba(158, 118, 56, 0.22);
+  --card-text-primary: #16241b;
+  --card-text-secondary: #2c4233;
+  --card-text-muted: #566b5c;
+  --card-accent-ceremony: #2e6948;
+  --card-gold: #8c672e;
+  --card-connector: #2e6948;
+}
+
+:root {
+  /* Easing Tokens */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* Duration Tokens */
+  --t-fast: 0.3s;
+  --t-base: 0.7s;
+  --t-slow: 1.2s;
+  --t-cinematic: 2s;
+
+  /* Typography Fonts */
+  --font-serif: 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  --font-display: 'Cinzel', 'Trajan Pro', Georgia, serif;
+  --font-script: 'Alex Brush', 'Great Vibes', cursive;
+  --font-arabic: 'Amiri', 'Traditional Arabic', 'Scheherazade New', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  /* Fluid Type Tokens with clamp() */
+  --text-xs: clamp(0.72rem, 0.68rem + 0.2vw, 0.82rem);
+  --text-sm: clamp(0.85rem, 0.8rem + 0.25vw, 0.95rem);
+  --text-base: clamp(1rem, 0.95rem + 0.3vw, 1.125rem);
+  --text-lg: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+  --text-xl: clamp(1.35rem, 1.2rem + 0.75vw, 1.7rem);
+  --text-2xl: clamp(1.75rem, 1.5rem + 1.2vw, 2.25rem);
+  --text-3xl: clamp(2.2rem, 1.8rem + 2vw, 3.25rem);
+  --text-hero: clamp(2.8rem, 2.2rem + 3.8vw, 5.2rem);
+
+  /* Viewport Safe Dimensions */
+  --container-max: 1120px;
+  --container-narrow: 760px;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+}

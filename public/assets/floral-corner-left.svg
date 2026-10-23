@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none" stroke="currentColor">
+  <defs>
+    <linearGradient id="leafGradLeft" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e8b4b8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#d4af7a" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+  <!-- Main scrolling vine -->
+  <path d="M0 0 C40 10, 80 30, 110 70 C140 110, 150 160, 160 240" stroke="#d4af7a" stroke-width="1.8" stroke-linecap="round" />
+  <path d="M0 0 C10 40, 30 80, 70 110 C110 140, 160 150, 240 160" stroke="#d4af7a" stroke-width="1.8" stroke-linecap="round" />
+  <!-- Corner outer flourish ring -->
+  <path d="M10 10 C35 25, 55 45, 75 75 C95 105, 105 145, 115 190" stroke="rgba(212,175,122,0.4)" stroke-width="1.2" stroke-dasharray="3 3" />
+  <!-- Jasmine & Rose petals -->
+  <g class="petals">
+    <path d="M70 70 C55 60, 45 45, 55 35 C65 25, 80 35, 70 70 Z" fill="url(#leafGradLeft)" stroke="#d4af7a" stroke-width="1" />
+    <path d="M70 70 C60 85, 45 95, 35 85 C25 75, 35 60, 70 70 Z" fill="url(#leafGradLeft)" stroke="#d4af7a" stroke-width="1" />
+    <circle cx="70" cy="70" r="4" fill="#ffd9a8" />
+    <!-- Secondary bloom at (130, 130) -->
+    <path d="M125 125 C115 110, 110 95, 120 88 C130 80, 140 92, 125 125 Z" fill="#e8b4b8" fill-opacity="0.6" stroke="#d4af7a" stroke-width="1" />
+    <path d="M125 125 C140 115, 155 110, 162 120 C170 130, 158 140, 125 125 Z" fill="#e8b4b8" fill-opacity="0.6" stroke="#d4af7a" stroke-width="1" />
+    <circle cx="125" cy="125" r="3.5" fill="#d4af7a" />
+  </g>
+  <!-- Delicate tendrils and buds -->
+  <path d="M40 15 C60 10, 80 5, 95 18 C105 28, 100 45, 85 45" stroke="#d4af7a" stroke-width="1.2" stroke-linecap="round" />
+  <circle cx="95" cy="18" r="2.5" fill="#ffd9a8" />
+  <path d="M15 40 C10 60, 5 80, 18 95 C28 105, 45 100, 45 85" stroke="#d4af7a" stroke-width="1.2" stroke-linecap="round" />
+  <circle cx="18" cy="95" r="2.5" fill="#ffd9a8" />
+</svg>

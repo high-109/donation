@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" fill="none" stroke="currentColor">
+  <!-- Arch dome headpiece -->
+  <path d="M40 70 C70 68, 110 55, 140 30 C150 20, 155 12, 160 5 C165 12, 170 20, 180 30 C210 55, 250 68, 280 70" stroke="#d4af7a" stroke-width="1.8" stroke-linecap="round" />
+  <path d="M60 72 C90 70, 120 58, 145 38 C153 30, 157 24, 160 18 C163 24, 167 30, 175 38 C200 58, 230 70, 260 72" stroke="rgba(212,175,122,0.5)" stroke-width="1.2" stroke-dasharray="3 3" />
+  <!-- Crescent & Finial at peak -->
+  <circle cx="160" cy="5" r="3" fill="#ffd9a8" stroke="#d4af7a" stroke-width="1" />
+  <!-- Floral drops -->
+  <path d="M120 52 C125 45, 135 45, 140 52 C135 60, 125 60, 120 52 Z" fill="#e8b4b8" fill-opacity="0.7" stroke="#d4af7a" stroke-width="1" />
+  <path d="M180 52 C185 45, 195 45, 200 52 C195 60, 185 60, 180 52 Z" fill="#e8b4b8" fill-opacity="0.7" stroke="#d4af7a" stroke-width="1" />
+  <circle cx="130" cy="52" r="2" fill="#ffd9a8" />
+  <circle cx="190" cy="52" r="2" fill="#ffd9a8" />
+</svg>

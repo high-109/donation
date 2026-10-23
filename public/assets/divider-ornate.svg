@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 50" fill="none" stroke="currentColor">
+  <!-- Central medallion flourish -->
+  <path d="M0 25 L180 25" stroke="#d4af7a" stroke-width="1.2" stroke-linecap="round" class="draw-line-left" />
+  <path d="M320 25 L500 25" stroke="#d4af7a" stroke-width="1.2" stroke-linecap="round" class="draw-line-right" />
+  
+  <!-- Left accent scrolls -->
+  <path d="M180 25 C195 25, 205 16, 215 16 C225 16, 230 25, 240 25" stroke="#d4af7a" stroke-width="1.5" />
+  <path d="M180 25 C195 25, 205 34, 215 34 C225 34, 230 25, 240 25" stroke="#d4af7a" stroke-width="1.5" />
+  
+  <!-- Right accent scrolls -->
+  <path d="M320 25 C305 25, 295 16, 285 16 C275 16, 270 25, 260 25" stroke="#d4af7a" stroke-width="1.5" />
+  <path d="M320 25 C305 25, 295 34, 285 34 C275 34, 270 25, 260 25" stroke="#d4af7a" stroke-width="1.5" />
+
+  <!-- Center Diamond & Flower Gem -->
+  <polygon points="250,15 258,25 250,35 242,25" fill="#ffd9a8" stroke="#d4af7a" stroke-width="1.5" />
+  <circle cx="250" cy="25" r="2.5" fill="#3a2540" />
+  <circle cx="220" cy="25" r="2" fill="#d4af7a" />
+  <circle cx="280" cy="25" r="2" fill="#d4af7a" />
+</svg>

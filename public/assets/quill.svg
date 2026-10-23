@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="featherGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff4dd" />
+      <stop offset="60%" stop-color="#e8b4b8" />
+      <stop offset="100%" stop-color="#d4af7a" />
+    </linearGradient>
+  </defs>
+  <!-- Feather Quill Shaft -->
+  <path d="M140 15 C110 50, 70 95, 30 140" stroke="#d4af7a" stroke-width="2.2" stroke-linecap="round" />
+  
+  <!-- Feather Vane Top/Left -->
+  <path d="M140 15 C120 25, 90 40, 75 70 C70 80, 80 82, 85 75 C100 55, 120 40, 140 15 Z" fill="url(#featherGrad)" stroke="#d4af7a" stroke-width="1" />
+  <path d="M115 45 C100 55, 80 75, 60 100 C56 108, 64 109, 68 103 C85 80, 102 62, 115 45 Z" fill="url(#featherGrad)" stroke="#d4af7a" stroke-width="1" />
+  
+  <!-- Feather Vane Right -->
+  <path d="M140 15 C135 30, 115 60, 95 90 C92 95, 98 98, 102 93 C120 70, 135 45, 140 15 Z" fill="url(#featherGrad)" stroke="#d4af7a" stroke-width="1" />
+  
+  <!-- Metallic Gold Nib -->
+  <polygon points="30,140 38,132 32,130 20,150" fill="#ffd9a8" stroke="#d4af7a" stroke-width="1.2" />
+  <line x1="26" y1="144" x2="20" y2="150" stroke="#3a2540" stroke-width="1.2" />
+  <circle cx="27" cy="143" r="1" fill="#3a2540" />
+
+  <!-- Animated flourish stroke path at tip (for SVG dashoffset animation) -->
+  <path id="quillFlourish" d="M20 150 C10 155, 5 145, 15 138 C28 128, 50 145, 75 145 C95 145, 110 135, 120 125" stroke="#d4af7a" stroke-width="1.5" stroke-linecap="round" fill="none" stroke-dasharray="200" stroke-dashoffset="0" />
+</svg>

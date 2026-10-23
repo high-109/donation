@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none" stroke="currentColor">
+  <defs>
+    <linearGradient id="leafGradRight" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e8b4b8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#d4af7a" stop-opacity="0.5" />
+    </linearGradient>
+  </defs>
+  <!-- Main scrolling vine mirrored -->
+  <path d="M240 0 C200 10, 160 30, 130 70 C100 110, 90 160, 80 240" stroke="#d4af7a" stroke-width="1.8" stroke-linecap="round" />
+  <path d="M240 0 C230 40, 210 80, 170 110 C130 140, 80 150, 0 160" stroke="#d4af7a" stroke-width="1.8" stroke-linecap="round" />
+  <!-- Corner outer flourish ring -->
+  <path d="M230 10 C205 25, 185 45, 165 75 C145 105, 135 145, 125 190" stroke="rgba(212,175,122,0.4)" stroke-width="1.2" stroke-dasharray="3 3" />
+  <!-- Jasmine & Rose petals -->
+  <g class="petals">
+    <path d="M170 70 C185 60, 195 45, 185 35 C175 25, 160 35, 170 70 Z" fill="url(#leafGradRight)" stroke="#d4af7a" stroke-width="1" />
+    <path d="M170 70 C180 85, 195 95, 205 85 C215 75, 205 60, 170 70 Z" fill="url(#leafGradRight)" stroke="#d4af7a" stroke-width="1" />
+    <circle cx="170" cy="70" r="4" fill="#ffd9a8" />
+    <!-- Secondary bloom at (115, 125) -->
+    <path d="M115 125 C125 110, 130 95, 120 88 C110 80, 100 92, 115 125 Z" fill="#e8b4b8" fill-opacity="0.6" stroke="#d4af7a" stroke-width="1" />
+    <path d="M115 125 C100 115, 85 110, 78 120 C70 130, 82 140, 115 125 Z" fill="#e8b4b8" fill-opacity="0.6" stroke="#d4af7a" stroke-width="1" />
+    <circle cx="115" cy="125" r="3.5" fill="#d4af7a" />
+  </g>
+  <!-- Delicate tendrils and buds -->
+  <path d="M200 15 C180 10, 160 5, 145 18 C135 28, 140 45, 155 45" stroke="#d4af7a" stroke-width="1.2" stroke-linecap="round" />
+  <circle cx="145" cy="18" r="2.5" fill="#ffd9a8" />
+  <path d="M225 40 C230 60, 235 80, 222 95 C212 105, 195 100, 195 85" stroke="#d4af7a" stroke-width="1.2" stroke-linecap="round" />
+  <circle cx="222" cy="95" r="2.5" fill="#ffd9a8" />
+</svg>

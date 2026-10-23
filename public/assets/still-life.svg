@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 180" fill="none">
+  <defs>
+    <linearGradient id="scrollParchmentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8ed" />
+      <stop offset="70%" stop-color="#eddac0" />
+      <stop offset="100%" stop-color="#dabf9c" />
+    </linearGradient>
+  </defs>
+  <!-- Background soft table halo -->
+  <ellipse cx="130" cy="140" rx="100" ry="25" fill="rgba(212,175,122,0.12)" />
+
+  <!-- Rolled parchment roll on table -->
+  <path d="M40 125 C40 115, 55 110, 75 112 L175 118 C195 120, 205 130, 205 138 C205 146, 190 152, 170 150 L70 144 C50 142, 40 135, 40 125 Z" fill="url(#scrollParchmentGrad)" stroke="#d4af7a" stroke-width="1.6" />
+  <!-- Scroll roll end curl -->
+  <ellipse cx="50" cy="127" rx="9" ry="14" fill="#dabf9c" stroke="#d4af7a" stroke-width="1.2" />
+  <ellipse cx="50" cy="127" rx="4" ry="7" fill="#9c7a52" />
+
+  <!-- Glass Ink Bottle with gold collar -->
+  <rect x="160" y="80" width="36" height="42" rx="6" fill="#3a2540" stroke="#d4af7a" stroke-width="1.6" />
+  <path d="M168 80 L168 70 L188 70 L188 80" fill="#d4af7a" stroke="#d4af7a" stroke-width="1" />
+  <ellipse cx="178" cy="70" rx="8" ry="3" fill="#ffd9a8" />
+  <rect x="164" y="92" width="28" height="18" rx="2" fill="rgba(212,175,122,0.2)" stroke="#d4af7a" stroke-width="1" />
+  
+  <!-- Flower branch laying across scroll -->
+  <path d="M70 145 C100 130, 130 115, 160 85" stroke="#d4af7a" stroke-width="1.4" stroke-linecap="round" />
+  <!-- Blossoms -->
+  <circle cx="115" cy="122" r="6" fill="#e8b4b8" fill-opacity="0.85" stroke="#d4af7a" stroke-width="1" />
+  <circle cx="115" cy="122" r="2.5" fill="#ffd9a8" />
+  <circle cx="140" cy="102" r="5" fill="#e8b4b8" fill-opacity="0.85" stroke="#d4af7a" stroke-width="1" />
+  <circle cx="140" cy="102" r="2" fill="#ffd9a8" />
+</svg>
